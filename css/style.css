@@ -1,0 +1,128 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+.all-content{
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.des-title{
+  font-size: 50px;
+  line-height: 55px;
+  color: #FFFFFF;
+  width: 525px;
+}
+.des-text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;  
+  width: 497px;
+  margin-top: 12px;
+}
+.form-title-span{
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.form-title-button{
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  background: #5E54A4;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px; 
+  padding: 17px 110px;
+  margin-bottom: 24px;
+}
+.form-inputs{
+  background: #FFFFFF;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;  
+  width: 500px;
+  padding: 40px 40px 22px 40px;
+}
+.from-contents{
+  display: flex;
+  overflow: hidden;
+  justify-content:center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  align-items: center;
+}
+.form-items{
+ margin-bottom: 20px;
+  width: 460px;
+}
+.form-input{
+  width: 420px;
+  padding: 15px 32px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+ 
+}
+.form-input:hover{
+  border-color: #5E54A4;
+}
+.form-input::placeholder{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3D3B48;
+  mix-blend-mode: normal;
+  opacity: 0.75;  
+}
+.sumbit-button{
+  background: #38CC8B;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  padding: 15px 105px;
+  border: none;
+}
+.sumbit-tect{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: #BAB7D4;
+  margin-top: 8px;  
+}
+.sumbit-span{
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: #FF7979;
+  
+}
