@@ -87,6 +87,9 @@ body{
 .form-input:hover{
   border-color: #5E54A4;
 }
+.form-input:focus{
+  outline: #5E54A4;
+}
 .form-input::placeholder{
   font-style: normal;
   font-weight: 600;
