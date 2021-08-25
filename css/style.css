@@ -67,7 +67,7 @@ body{
 .from-contents{
   display: flex;
   overflow: hidden;
-  justify-content:center;
+  justify-content:space-evenly;
   padding-top: 120px;
   padding-bottom: 120px;
   align-items: center;
