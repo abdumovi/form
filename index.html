@@ -17,23 +17,27 @@
         <h2 class="des-title">Learn to code by watching others</h2>
         <p class="des-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
       </div>
-      <form class="forma" action="#">
-        <button class="form-title-button"><span class="form-title-span">Try it free 7 days</span> then $20/mo. thereafter</button>
+      <form class="forma" action="https://echo.htmlacademy.ru/" method="POST">
+        <a class="form-title-button"><span class="form-title-span">Try it free 7 days</span> then $20/mo. thereafter</a>
         <div class="form-inputs">
           <div class="form-items">
-            <input class="form-input" name="first-name" type="text" placeholder="First Name" required>
+            <input class="form-input" id="firs-name" name="first-name" type="text" autocomplete="off" placeholder="First Name" required>
+            <label for="first-name"></label>
           </div>
           <div class="form-items">
-            <input class="form-input" name="lastname" type="text" placeholder="Last Name" required>
+            <input class="form-input" id="lastname" name="lastname" type="text" autocomplete="off" placeholder="Last Name" required>
+            <label for="lastname"></label>
           </div>
           <div class="form-items">
-            <input class="form-input" name="email" type="email" placeholder="Email" required>
+            <input class="form-input" id="email" name="email" type="email" autocomplete="off" placeholder="Email" required>
+            <label for="email"></label>
           </div>
           <div class="form-items">
-            <input class="form-input" name="password" type="password" placeholder="Password" required>
+            <input class="form-input" id="password" name="password" type="password" autocomplete="off"  placeholder="Password" required>
+            <label for="password"></label>
           </div>
           <div class="form-items">
-            <button class="sumbit-button" type="submit">CLAIM YOUR FREE TRIAL</button>
+            <button class="sumbit-button" type="submit" >CLAIM YOUR FREE TRIAL</button>
             <p class="sumbit-tect">By clicking the button, you are agreeing to our  <a href="#"><span class="sumbit-span">Terms and Services</span></a></p>
           </div>
         </div>
